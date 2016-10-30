@@ -5,13 +5,15 @@
 			var bs64 = new Base64();
 			var decoded = bs64.decode("VEVTVDEyMw==");
 			var encoded = bs64.encode("TEST123");
-			var exmpl = document.getElementById('example');
-			el.innerHTML = 'Encoded: ' + encoded + '<br />' + 'Decoded: ' + decoded;
 			console.log('Encoded: ' + encoded);
 			console.log('Decoded: ' + decoded);
 		</script>
 	</head>
 	<body>
 	<div id="example"></div>
+	<script type="text/javascript">
+			var exmpl = document.getElementById('example');
+			exmpl.innerHTML = 'Encoded: ' + encoded + '<br />' + 'Decoded: ' + decoded;
+	</script>
 	</body>
 </html>
