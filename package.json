@@ -1,5 +1,5 @@
 {
-  "name": "js-base64",
+  "name": "base64_js",
   "version": "1.1.0",
   "description": "A simple base64 encode and decode, super fast in pure JS.",
   "main": "base64.js",
