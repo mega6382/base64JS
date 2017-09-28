@@ -1,0 +1,22 @@
+{
+  "name": "base64js",
+  "version": "1.0.0",
+  "description": "A simple base64 encode and decode, super fast.",
+  "main": "base64.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mega6382/base64JS.git"
+  },
+  "keywords": [
+    "base64"
+  ],
+  "author": "Haseeb A. Basil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mega6382/base64JS/issues"
+  },
+  "homepage": "https://github.com/mega6382/base64JS#readme"
+}

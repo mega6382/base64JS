@@ -1,22 +1,8 @@
-/**
- * Object Oriented JS base64 encoder and decoder
- * copyright : (c) 2016 ZOCUX TECHNOLOGIES
- * author : haseeb@zocuxtech.com
- * licence : GPL
- *
-*/
 
-var Base64 = function()
-{	
-     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    //        CHANGE THE VALUE OF THE FOLLOWING STRING TO CUSTOMIZE THE ENCODING. BUT DON'T CHANGE THE LENGTH OF THE STRING   //
-   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	this.codes = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-	
-	 ////////////////////////////////////////////////
-    //        DECODES BASE64 INTO TEXT            //
-   ////////////////////////////////////////////////
-    this.decode = function(input)
+module.exports = 
+{
+	codes: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+    decode: function(input)
 	{
 		var codes = this.codes;
 		if(input == null)
@@ -55,11 +41,8 @@ var Base64 = function()
 
 		}
         return decodedstr;
-    }
-	 ///////////////////////////////////////////////
-    //        ENCODES TEXT INTO BASE64           //
-   ///////////////////////////////////////////////
-    this.encode = function(input){
+    },
+    encode: function(input){
 		var codes = this.codes;
 		var inputlen = input.length;
 		input = input.split("");

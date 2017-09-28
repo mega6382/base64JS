@@ -1,0 +1,1 @@
+This is a simple component for encoding and decoding a base64 string.
