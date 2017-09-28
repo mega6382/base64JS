@@ -1,6 +1,6 @@
 {
-  "name": "base64js",
-  "version": "1.0.0",
+  "name": "base64-js",
+  "version": "1.1.0",
   "description": "A simple base64 encode and decode, super fast.",
   "main": "base64.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/mega6382/base64JS.git"
   },
   "keywords": [
-    "base64"
+    "base64", "js", "encode", "decode", "mega6382"
   ],
   "author": "Haseeb A. Basil",
   "license": "ISC",
